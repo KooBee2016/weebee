@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,h1,h2,h3,h4,h5,h6,address,div,blockquote,p,pre{
+	margin:0px;
+	padding:0px;
+	border:0px;
+	font-style:normal;
+	font-weight:normal;
+	font-size:100%;
+	font-family:Verdana,Arial,
+		"Hiragino Kaku Gothic Pro",
+		"ヒラギノ角ゴ Pro W3",
+		Osaka,
+		"MS P Gothic",
+		"ＭＳ Ｐゴシック",
+		sans-serif;
+}
+
+hr,table,caption,tr,th,td,span,em,strong,abbr,br,a,img,object,iframe{
+	margin:0px;
+	padding:0px;
+	border:0px;
+	font-style:normal;
+	font-weight:normal;
+	font-size:100%;
+	font-family:Verdana,Arial,
+		"Hiragino Kaku Gothic Pro",
+		"ヒラギノ角ゴ Pro W3",
+		Osaka,
+		"MS P Gothic",
+		"ＭＳ Ｐゴシック",
+		sans-serif;
+}
+
+ul,ol,li,dl,dt,dd{
+	margin:0px;
+	padding:0px;
+	border:0px;
+	font-style:normal;
+	font-weight:normal;
+	font-size:100%;
+	list-style-type:none;
+	font-family:Verdana,Arial,
+		"Hiragino Kaku Gothic Pro",
+		"ヒラギノ角ゴ Pro W3",
+		Osaka,
+		"MS P Gothic",
+		"ＭＳ Ｐゴシック",
+		sans-serif;
+}

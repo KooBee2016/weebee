@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*ここからGN*/
+#menu{
+    width: 1350px;
+    height: 80px;
+     }
+
+
+
+.gn_li{
+	float: left;
+	width: 181px;
+	height: 80px;
+	position:relative;
+	z-index: 500;
+}
+
+
+li .gn{
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 100px;
+}
+
+
+#gn_interview{
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: -32%;
+	z-index: 20;
+}
+
+#gn_snap{
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: -30%;
+	z-index: 20;
+}
+
+
+#gn_lecture{
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: -30%;
+	z-index: 20;
+}
+
+#gn_circle{
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: -30%;
+	z-index: 20;
+}
+
+#gn_job{
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: -140%;
+	z-index: 20;
+}
+
+#gn_coupon{
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-left: -142%;
+	z-index: 20;
+}
+
+
+.circle_1{
+	width: 285px;
+	height: 115px;
+	position: absolute;
+	top: -500%;
+	left: 50%;	
+	z-index: 20;
+}
+
+/*
+.circle_2{
+	width: 285px;
+	height: 115px;
+	position: absolute;
+	top: 500%;
+	left: 50%;
+	z-index: 50;
+}
+
+
+.circle_3{
+	width: 285px;
+	height: 115px;
+	position: absolute;
+	top: 500%;
+	left: 50%;
+	z-index: 50;
+}
+
+*/
+.gn_content_name{
+	float: left;
+}
+
+.gn_content_name{
+	float: left;
+}

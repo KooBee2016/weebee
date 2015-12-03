@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>WeeBee</title>
+
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/css1.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+
+<script type="text/javascript">
+
+$(function(){
+     $('.image10').hover(function(){
+        $(this).attr('src', $(this).attr('src').replace('_off', '_on'));
+          }, function(){
+             if (!$(this).hasClass('currentPage')) {
+             $(this).attr('src', $(this).attr('src').replace('_on', '_off'));
+        }
+   });
+});
+
+
+
+</script>
+
+<script type="text/javascript">
+
+
+$(document).ready(
+  function(){
+    $(".pic") .hover(function(){
+       $(this).fadeTo("1000",0.3); // マウスオーバーで透明度を30%にする
+    },function(){
+       $(this).fadeTo("4000",1.0); // マウスアウトで透明度を100%に戻す
+    });
+  });
+
+</script>
+
+<link rel="stylesheet" href="css/thickbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/thickbox.js"></script>
+
+
+<script type="text/javascript">
+function mainmenu(){
+$(" #menu ul, #menu-tate ul").css({display: "none"}); // Opera Fix
+$(" #menu li,#menu-tate li").hover(function(){
+		$(this).find('ul:first').css({visibility: "visible",display: "none"}).show(400);
+		},function(){
+		$(this).find('ul:first').css({visibility: "hidden"});
+		});
+}
+
+ $(document).ready(function(){					
+	mainmenu();
+});
+    </script>
+
+
+<script type="text/javascript" src="jquery-1.8.2.min.js"></script>
+<link href="about.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="mailform.css" type="text/css">
+<script type="text/javascript" src="jquery.js"></script>
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36914756-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></head>
+
+<body>
+
+<div class="wrapper">
+<div class="header"> 
+<div class="logo" style="margin:0px 30px 0px 20px;" >
+<a href="index.html"><img src="image/toppage/other/logo.png" /> </a>
+</div>
+
+
+
+
+<div id="menu_waku">
+<ul id="menu">
+<li class="menu01">
+<a href="index.html">
+  <span class="menu01" >
+  <img src="image/toppage/gn/1_off.png" class="image10" />
+  </span>
+  </a>
+  <ul class="menu01_sub">
+    
+  </ul>
+</li><!-- /ボタン1-->
+
+<li class="menu02">
+<a><img src="image/toppage/gn/2_off.png" style="margin-left:30px;" class="image10"/>
+</a>
+<ul class="menu02_sub">
+<li><a href="interview.html"><img src="image/toppage/gn/gn-jonetsu.png" /></a></li>
+	<li><a href="Shindai365.html"><img src="image/toppage/gn/gn-365_10.png" /></a></li>
+    <li><a href="snap.html"><img src="image/toppage/gn/gn-snap_10.png" /></a></li>
+    </ul>
+</li>
+
+<li class="menu02">
+<a><img src="image/toppage/gn/3_off.png" style="margin-left:30px;" class="image10"/> </a> 
+<ul class="menu02_sub">
+	<li><a href="shinkare.html"><img src="image/toppage/gn/gn-shinkare_03.png" /></a></li>
+	<li><a href="omotekou/kyougen-g1-14l.html"><img src="image/toppage/gn/gn-omote_10.png"/></a></li>
+    </ul>
+</li>
+
+<li class="menu02">
+<a><img src="image/toppage/gn/5_off.png" style="margin-left:30px;" class="image10"/> </a> 
+<ul class="menu02_sub">
+	 <li><a href="job.html"><img src="image/toppage/gn/gn-job_03.png"/></a></li>
+   <li><a href="koopon-oya.html"><img src="image/toppage/gn/gn-koopon.png" /></a></li>
+      </ul>
+</li>
+
+<!--<li class="menu02">
+<a><img src="image/toppage/gn/4_off.png" style="margin-left:30px;" class="image10"/> </a> 
+<ul class="menu02_sub">
+  
+	</ul>
+</li>-->
+
+
+<li class="menu02">
+<a> <img src="image/toppage/gn/6_off.png" style="margin-left:30px;" class="image10"/> </a> 
+<ul class="menu02_sub">
+   <li><a href="about.html#about2"><img src="image/toppage/gn/gn-weebee.png" /></a></li>
+   <li><a href="about.html#about3"><img src="image/toppage/gn/gn-unei.png" /></a></li>
+   <li><a href="inquiry.html"><img src="image/toppage/gn/gn-form.png" /></a></li>
+	</ul>
+</li>
+
+</div>
+</div>
+</div>
+
+
+
+<div class="wrapper">
+
+	<div class="mainbox" >
+    
+    	<div class="main-contents">
+<div class="form">
+<img src="image/about/about.toiawase.png" />
+  <p><br />
+    WeeBeeについてのお問い合わせは、下記のフォームよりお願いいたします。<br />各企画に関する情報提供もお待ちしております。</p>
+
+     
+        <!--メールフォーム用のHTMLタグはここから-->
+            <form id="mailform" method="post" action="mailform/send.cgi" onsubmit="return sendmail(this);">
+				<table border="0" cellspacing="0" cellpadding="0" class="mailform">
+					<tr>
+						<th>メールアドレス<span>*</span><p>e-mail address</p></th>
+						<td><input type="text" name="email(必須)" size="50" maxlength="50" class="mf" /></td>
+					</tr>
+
+					<tr>
+						<th>名前<span>*</span><p>your name</p></th>
+						<td><input type="text" name="お名前(必須)" size="30" /></td>
+					</tr>
+                    <tr>
+						<th>件名<p>title</p></th>
+						<td><input type="text" name="件名" size="70" /></td>
+					</tr>
+					<tr>
+						<th>本文<span>*</span><p>inquiry body</p></th>
+						<td><textarea name="ご用件(必須)" rows="10" cols="70"></textarea></td>
+					</tr>
+					<tr>
+						<th><span>*</span>は必須項目です。</th>
+						<td><input type="submit" value="メールを送信する" /> <input type="reset" name="reset" value="リセット" /></td>
+					</tr>
+				</table>
+			</form>
+			<link rel="stylesheet" href="mailform/mailform.css" type="text/css">
+			<script type="text/javascript" src="mailform/mailform.js" charset="utf-8"></script>
+
+</div>
+			<!--ここまでコピー＆ペーストすればまず間違いないです-->
+</div><!--メインコンテンツ-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+</div>
+<div class="futter"><img src="image/toppage/other/futter2.png" width="100%" style="margin-top:70px;"/></div><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36914756-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
