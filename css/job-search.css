@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+.itemLi アイテムリスト全体
+.itemLiInner　概要
+.itemName　商品名
+.itemCate　カテゴリ
+.itemPrice  値段
+
+
+
+/*親ページ*/
+
+.job{
+	padding:0px 120px;
+	width:720px;
+	background-color:#FAF8CB;
+	overflow:hidden;
+	
+}
+
+.jobtop{
+	width:720px;
+	height:240px;
+	margin:50px 0px 80px 0px;
+	background-color:#000000;
+	}
+
+.kensaku{
+	width:718px;
+	height:180px;
+	background-color:#C7DF95;
+	padding:40px 1px 0px 1px;
+	margin-bottom:80px;
+}
+
+.kensaku1{
+	height:64px;
+	width:678px;
+	background-color:#FFFFFF;
+	border-bottom:solid 1px #C7DF95;
+	padding:15px 20px 10px 20px;
+	font-size:16px;
+}
+
+.kensaku1 img{
+	margin-bottom:10px;
+	margin-right:575px;
+}
+
+.kensaku2{
+	height:34px;
+	width:678px;
+	background-color:#FFFFFF;
+	border-bottom:solid 1px #C7DF95;
+	padding:27px 20px 28px 20px;
+}
+
+.kensaku2 a{
+	text-decoration:underline;
+	color:#000000;
+	font-size:16px;
+	vertical-align:super;
+}
+
+.kensaku2 img{
+	margin-right:20px;
+}
+
+.area{
+	
+}
+
+.retsu{
+	width:720px;
+	height:160px;
+	margin-bottom:30px;
+}
+
+.kigyou-l{
+	width:320px;
+	height:160px;
+	background-color:#C7DF95;
+	float:left;
+	margin-right:80px;
+	
+}
+
+.kigyou-r{
+	width:320px;
+	height:160px;
+	background-color:#C7DF95;
+	float:left;
+}
+
+.greenbar{
+	width:320px;
+	height:30px;
+}
+
+.kigyouname{
+	width:200px;
+	height:30px;
+	margin-left:20px;
+	background-color:#C7DF95;
+	font-size:16px;
+	float:left;
+}
+
+.kensakuword{
+	width:100px;
+	background-color:#C7DF95;
+	float:left;
+	padding:5px 0px 6px 0px;
+	height:19px;
+	}
+
+.kensakuword img{
+	float:left;
+	margin-right:8px;
+}
+
+.sigoto{
+	margin:0px 1px 1px 1px;
+	width:318px;
+	height:129px;
+	background-color:#FFFFFF;
+	
+}
+
+.tphoto{
+	width:128px;
+	height:96px;
+	padding:17px 9px;
+	float:left;	
+}
+
+.naiyou{
+	width:172px;
+	height:112px;
+	float:left;
+	margin-top:17px;	
+}
+
+.syokusyu{
+	width:172px;
+	height:20px;
+	font-weight:900;
+	font-size:12px;
+}
+
+.joken{
+	height:34px;
+	width:172px;
+}
+
+.joken{
+	height:34px;
+	width:172px;
+}
+
+.joken img{
+	float:left;
+	margin:6px 2px 6px 0px;
+}
+
+.joken p{
+	font-size:10px;
+	line-height:1.5em;
+}
+
+.syosaie{
+	height:19px;
+	width:64px;
+	margin-bottom:5px;
+	padding-left:109px;
+}

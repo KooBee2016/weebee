@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,h1,h2,h3,h4,h5,h6,address,div,blockquote,p,pre{
+	line-height: 1.6;
+}
+
+
+
+.smilebox{
+	width:960px;
+	margin:0 auto;
+}
+
+.photoflame1{
+	width:960px;
+	height:60px;
+	
+}
+	
+
+
+.photoflame{
+	width:96px;
+	height:60px;
+	float:left;
+}
+	
+	
+.egaotop{
+	width:930px;
+	
+	margin:30px auto;
+
+}
+

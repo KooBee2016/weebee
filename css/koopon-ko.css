@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.tenpozyouhou{
+width:500px;
+height:500px;
+ float:left;
+ margin:20px 20px 0px 20px;}
+ 
+ .same-area{width:400px;
+ height:530px;
+  float:left;
+  margin:20px 20px 0px 0px;}
+ 
+ .same-area1{width:400px;
+ height:60px;
+ margin-bottom:5px;}
+ 
+ .same-area2{width:400px;
+ height:60px;
+ margin-bottom:5px;}
+ 
+ .same-area3{width:400px;
+ height:60px;}
+ 
+ .google-map{width:360px;
+ height:200px;
+ padding-top:30px;}
+
+ 
+ .sub-box{width:960px;
+ overflow:hidden;
+ margin:50px auto 50px auto;}
+
+
+ .twitter{margin:50px 20px 50px 100px}
+ 
+ 
+.main-box{width:960px;
+overflow:hidden;}
+

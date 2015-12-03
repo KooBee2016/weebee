@@ -1,0 +1,170 @@
+
+@charset "utf-8";
+/* CSS Document */
+html,body,h1,h2,h3,h4,h5,h6,address,div,blockquote,p,pre{
+	line-height: 1.6;
+}
+
+ul,ol,li,dl,dt,dd{
+	margin:0px;
+	padding:0px;
+	border:0px;
+	font-style:normal;
+	font-weight:normal;
+	font-size:13px;
+	list-style-type:none;
+	color:#4F0000;
+	font-family:Verdana,Arial,
+		"Hiragino Kaku Gothic Pro",
+		"ヒラギノ角ゴ Pro W3",
+		Osaka,
+		"MS P Gothic",
+		"ＭＳ Ｐゴシック",
+		sans-serif;
+	
+		line-height:2.0;
+
+}
+
+.inter-topbanner{
+	width:960px;
+	height:40px;
+	background-color:#f32424;
+	margin-top:40px;
+}
+
+
+/*メイン画像ボックス*/
+.i-main{
+	max-width:700px;
+	height:auto;
+	margin:10px 0px 30px 0px;
+}
+
+
+/*名前上段２文字*/
+.namebox1-a{
+	margin-top:30px;
+	font-size:85px;
+	font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+	color:#1b0806;
+	line-height:90px;
+	float:left;
+}
+
+/*名前下段２文字*/
+
+.namebox1-b{
+	font-size:85px;
+	font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+	color:#1b0806;
+	margin-left:65px;
+	line-height:90px;
+	
+	
+}
+
+.profile{
+	width:220px;
+	padding:15px 10px 10px 10px;
+	color:#1b0806;
+	font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+	font-size:15px;
+	margin-top:150px;		
+
+}
+
+
+/*インタビュー順番ナンバー*/
+.inter-number{
+	color:#7a1f15;
+	font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+	margin-top:36px;
+	margin-left:10px;
+	font-size:60px;
+	line-height:60px;
+	width:70px;
+	float:left;
+}
+
+
+.twitter-i{
+	margin:80px 20px 10px 200px;
+	float:left;
+}
+
+
+.link-i{
+	width:700px;
+	height:40px;
+	margin:15px 0;
+}
+
+.link1{
+	width:30px;
+	height:30px;
+	float:left;
+	margin:0 35px 0 280px;
+}
+
+
+.link2{
+	width:30px;
+	height:30px;
+	float:left;
+}
+
+.midashi{
+	background-image:url(../image/interview/interview-item/midashi1.png);
+	height:80px;
+	background-repeat:no-repeat;
+}
+
+.yoyaku{font-size:20px;
+		font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+		color:#BE2610;
+		padding:30px 0px 0px 120px;
+		}
+
+.question-i{
+	color:#704d49;
+	font-size:16px;
+	margin-left:10px;
+	font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+	margin-top:20px;
+}
+
+.text-i{
+	color:#190907;
+	font-size:18px;
+	font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+	padding:20px 30px;
+	margin-top:5px;
+	font-weight:50;
+}
+
+
+.kakobox1{
+	margin-top:100px;
+}
+
+.kakobox2{
+	width:200px;
+	height:125px;
+	margin:10px;
+}
+
+.kakobox3{
+	font-size:15px;
+	font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+	color:#704d49;
+	text-align:center;
+	margin-bottom:20px;
+}
+		
+
+.ul#list li{float: left;}
+
+.ul#list p {text-align: center;width: 50px; cursor:pointer;}
+
+.ul#list li div{position: absolute; top:20; left:0; width:640px;}

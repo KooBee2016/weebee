@@ -1,0 +1,92 @@
+body{
+    background-color: #F7F4ED;
+    
+}
+
+.all{
+        width: 990px;
+        margin: auto;
+    }
+
+.top{
+    height: 160px;
+    width: 990px;
+   margin-bottom: 48px;
+}
+
+.image{
+    height: 149px;
+    width: 990px;
+    margin-bottom: 31px;
+}
+
+
+
+
+.image2{
+    height: 149px;
+    width: 990px;
+    margin-top: 96px;
+    margin-bottom: 31px;
+}
+
+.date{
+    width: 357px;
+    height: 77px;
+    margin-bottom: 50px;
+}
+
+.choice{
+    width: 357px;
+    height: 77px;
+    font-size: 300%;
+}
+
+
+
+.banner1{
+    width: 470px;
+    height: 200px;
+    background-color: #FFFACD;
+    float: left;
+    margin: 10px;
+}
+
+.banner2{
+    width: 470px;
+    height: 200px;
+    background-color: #E0FFFF;
+    float: left;
+    margin: 10px;
+}
+.line{
+    display: block;
+    width: 990px;
+    height:110px;
+    font-size: 300%;
+}
+
+.end{
+    display: block;
+    width: 990px;
+    height:110px;
+    font-size: 300%;
+}
+
+#closer_1{
+    display: block;
+    width: 990px;
+    height: 110px;
+    font-size: 300%;
+}
+
+#closer_2{
+    display: block;
+    width: 990px;
+    height: 110px;
+    font-size: 300%;
+}
+
+.yazirushi{
+    text-align: right;
+}

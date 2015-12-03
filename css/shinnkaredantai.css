@@ -1,0 +1,23 @@
+.soccer{
+	width: 990px;
+	height: 50px;
+}
+
+.dantainame{
+	width: 300px;
+	height: 50px;
+	float: left;
+	font-size: 200%;
+}
+
+.dantainame a{
+	text-decoration: none;
+	color: #21AFF7;
+}
+
+.image3{
+	height: 149px;
+    width: 990px;
+    margin-top: 96px;
+    margin-bottom: 31px;
+}

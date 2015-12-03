@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+.kooponfr{background-image:url(../image/koopon/koopon-item2014/koopon-fr-1.jpg);
+          width:960px;
+		  height:1700px;
+		  float:left;}
+		  
+		  
+.umihana{margin:832px 0px 700px 150px;
+         font-size:12px;
+		 background-color:#FFF;
+		
+		  float:left;
+}
+
+.umihana2{margin:831px 590px 700px 12px;
+         font-size:12px;
+		 background-color:#FFF;
+		 width:10px;
+		 height:20px;
+}

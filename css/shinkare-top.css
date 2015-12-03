@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+
+
+.shinkarebox{width:960px;
+overflow:hidden;
+margin-top:30px;
+text-align:left;
+margin:0px auto;
+overflow:hidden;
+clear:both;
+}
+
+.topbar{width:960px;
+        height:40px;
+		 background-image:url(../shinkare/shinkare-item/background.jpg);
+		background-repeat:inherit;
+		text-align:right;
+		}
+
+.leftbar{width:40px;
+height:1500px;
+overflow:hidden;
+		 float:left;
+		 background-image:url(../shinkare/shinkare-item/background.jpg);
+		background-repeat:inherit;}
+				
+.leftbox{width:270px;
+overflow:hidden;
+float:left;
+}
+
+
+.shinkarelogo{margin:0px 0px 40px 0px;
+              width:280px;
+	}
+
+		  
+.middlebar{width:30px;
+overflow:hidden;
+height:1500px;
+		   float:left;
+		   text-align:center;
+		   z-index:-1;
+		   background-image:url(../shinkare/shinkare-item/background.jpg);
+		background-repeat:inherit;}		  
+		  
+.rightbox{width:550px;
+      float:right;
+overflow:hidden;
+text-align:center;}
+
+.rightbar{width:40px;
+height:1500px;
+overflow:hidden;
+		 float:right;
+		 margin-left:20px;
+		 background-image:url(../shinkare/shinkare-item/background.jpg);
+		background-repeat:inherit;}
+	  
+
+.underbar{width:960px;
+        height:40px;
+		 background-image:url(../shinkare/shinkare-item/background.jpg);
+		background-repeat:inherit;
+		text-align:center;
+		z-index:3;
+		}
+
+.shinkareboxbox{width:860px;
+ overflow:visible;
+		text-align:left;
+		padding:30px 30px 30px 30px;
+		text-align:center;}
+
+.text{font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+font-size:15px;
+margin-left:20px;
+}
+
+.midashi{font-size:20px;}
+
+.s-menu{margin-left:30px;}
+
+.undoukei{width:540px;
+          height:660px;
+		  background-image:url(../shinkare/image/undoukei.png);
+		  clear:both;}
+		  
+#shinkare-icon{width:100px;
+float:left;
+margin-top:60px;
+margin-left:40px;}
+
+#shinkare-icon2{width:100px;
+float:left;
+margin-top:60px;
+margin-left:20px;}
+
+#shinkare-icon3{width:100px;
+float:left;
+margin-top:20px;
+margin-left:40px;}
+
+#shinkare-icon4{width:100px;
+float:left;
+margin-top:20px;
+margin-left:20px;}
+
+.bunkakei{width:540px;
+          height:660px;
+		  background-image:url(../shinkare/image/bunkakei.png);
+		  margin-top:30px;
+		  clear:both;}
+		  
+#icon{float:left;
+margin-top:30px;}
+
+.shinkare-menu{
+width:660px;
+margin:30px 0px 0px 200px;
+}
+
+#smenu{width:100px;
+float:left;}
+
+#calendaricon{width:150px;
+margin-top:30px;}
+
+.circlelist{text-align:left;
+margin-left:30px;
+margin-top:30px;
+text-decoration:underline;}
+
+.menucirclelist{margin-left:30px;
+font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+font-size:15px;
+text-decoration:underline;}
+
+#menucirclelist{margin-left:30px;
+font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+font-size:15px;
+text-decoration:underline;
+text-align:left;
+}
+
+#mapicon{width:300px;
+margin:20px 200px 0px 0px;
+text-align:left;}
+
+#maplist{width:280px;
+text-align:left;
+margin-right:200px;}
+
+#route{width:350px;
+margin:10px 100px 10px 0px;
+text-align:left;}
+
+#route2{width:350px;
+margin:30px 100px 10px 0px;
+text-align:left;}
+
+.movie{margin-top:30px;}
+
+p.introduction{width:400px;
+font-size:12px;
+color:#6A6A6A;
+font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+margin-left:70px;
+margin-bottom:20px;
+}
+
+
+/* サムネイルリストのCSS */
+    #content {
+        width: 665px;
+        margin: 150px auto 0;
+    }
+     
+    #content .cookie_list {
+        width: 665px;
+        margin: 0 auto 15px;
+    }
+     
+    #content .cookie_list li {
+        float: left;
+        padding-right: 15px;
+    }
+     
+    #content li.lc {
+        padding: 0;
+    }
+     
+    /* 隠しコンテンツのCSS */
+    .cookies {
+        position: relative;
+        display: none;/* ライトボックス表示するコンテンツは消しておきます */
+        width: 800px;/* 隠しコンテンツの横幅 */
+        height:800px;/* 隠しコンテンツの高さ */
+    }
+     
+    .cookies img {
+        position: absolute;
+        top: 16px;
+        left:15px;
+    }
+     
+    .cookies h3 {
+        position: absolute;
+        width: 400px;
+        top: 10px;
+        left: 343px;
+        border-bottom: 1px dotted #666666;
+        padding-bottom: 7px;
+        text-align: center;
+    }
+     
+    .cookies p {
+        position: absolute;
+        width: 205px;
+        top: 45px;
+        left: 343px;
+        line-height: 1.6;
+    }
+     
+    .cookies table {
+        position: absolute;
+        width: 400px;
+        top: 100px;
+        left: 350px;
+        font-size: 86%;
+        border: 1px solid #d1c9bd;
+		margin-bottom:30px;
+    }
+     
+    .cookies table th {
+        width: 34%;
+        background-color: #f0e0c8;
+        border-right: 1px solid #d1c9bd;
+        border-bottom: 1px solid #d1c9bd;
+        padding: 5px;
+        vertical-align: middle;
+    }
+     
+    .cookies table td {
+        width: 64%;
+        background-color: #ffffff;
+        border-right: 1px solid #d1c9bd;
+        border-bottom: 1px solid #d1c9bd;
+        padding: 5px;
+    }

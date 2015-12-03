@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mainimg{width:960px;
+margin:0 auto 0 auto;
+	}
+
+
+.topimg{width:700px; 
+        margin-left:110px;
+	}
+
+.contentsbox{width:800px;
+overflow:visible;
+		text-align:left;
+		margin:0px auto;}
+
+.kikakubox{width:920px;
+overflow:visible;
+		text-align:left;
+		margin:0px auto;}
+
+.kikakucontents{float:left;
+margin:20px 0px;}
+
+.kikakucont-style{margin-left:100px;
+	}
+	
+.kikakucont-style2{clear:both;
+	}
+
+
+.gakububox{width:900px;
+height:300px;
+overflow:visible;
+		text-align:left;
+		margin:0px auto;}
+		
+.boxstyle{clear:both;
+	}
+
+.gakubucontents{
+width:220px;
+float:left;
+margin:0px 0px 40px 0px;
+
+}
+
+.contents-style{margin-left:180px; clear:both;
+	}
+
+.contents-style2{margin-left:40px;
+	}
+
+.kikakuname{width:150px;
+clear:both;
+margin-left:10px;}
+		
+.image-tate{height:200px;
+margin:10px 20px 10px 20px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3), 0 5px 8px rgba(0, 0, 0, 0.3), 0 1px #FFFFFF inset, 0 -2px 4px rgba(0, 0, 0, 0.25) inset;}
+
+
+.image-yoko{width:200px;
+margin:10px 10px 10px 10px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3), 0 5px 8px rgba(0, 0, 0, 0.3), 0 1px #FFFFFF inset, 0 -2px 4px rgba(0, 0, 0, 0.25) inset;}
+
+.k-image-yoko{width:160px;
+margin:10px 10px 10px 10px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3), 0 5px 8px rgba(0, 0, 0, 0.3), 0 1px #FFFFFF inset, 0 -2px 4px rgba(0, 0, 0, 0.25) inset;}
+
+
+
+.h-icon{width:110px;
+margin:10px 30px 10px 30px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3), 0 5px 8px rgba(0, 0, 0, 0.3), 0 1px #FFFFFF inset, 0 -2px 4px rgba(0, 0, 0, 0.25) inset;}
+
+#top1{margin:40px 0px 20px 100px;}
+
+.w-px{width:200px;
+margin-top:40px;}
+
+.w-px2{width:300px;
+margin-top:40px;}
+
+
+.line{
+	margin:10px 0px 10px 10px;}
+	
+.motto{width:150px;
+margin-left:30px;}
+
+.pagebox{margin-top:20px;}

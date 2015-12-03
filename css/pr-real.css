@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main{width:860px;
+       margin: 0 auto;
+	   text-align:left;
+		 
+         }
+
+.title{font-size:20px;
+       margin-bottom:5px;
+       }
+	   
+
+	   
+
+.kao{width:300px;
+     float:left;
+	 margin:0px 0px 0px 30px;
+	 }
+	
+	
+.kihon{float:left;
+      margin:55px 80px 50px 50px;
+	    }
+
+.topp{width:860px;
+     height:276px;
+	}
+
+.ku{margin-top:20px;
+	float:left;
+	}
+
+		 
+.question-i{
+	
+	float:left;
+	color:#704d49;
+	font-size:16px;
+	margin-left:10px;
+	font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+	margin-top:20px;
+	
+}
+
+.question-ii{
+	
+	float:left;
+	color:#704d49;
+	font-size:16px;
+	margin-left:10px;
+	font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+	margin:20px 700px 0px 0px;
+	
+}
+
+.text-i{
+	clear:both;
+	color:#190907;
+	font-size:18px;
+	font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+	padding:20px;
+	margin-top:5px;
+	font-weight:50;
+}
+
+
+.text-ii{width:860px;
+	clear:both;
+	height:auto;
+	margin-top:5px;
+}
+
+
+.text-e{width:860px;
+	float:left;
+	color:#190907;
+	font-size:18px;
+	font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+	height:auto;
+	margin-top:5px;
+	font-weight:50;
+}
+
+.number{float:left;
+       	 margin:15px 10px 10px 10px;
+        }
+
+
+.midashi{
+	margin-top:10px;
+	height:70px;
+	
+}
+
+
+.yoyaku{font-size:30px;
+	font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+		color:#190907;
+		padding:20px 0px 0px 20px;	
+		float:left;
+		
+		}
+		
+		
+.ie{float:left;
+    margin:20px 0px 0px 0px;
+	width:100px;
+	}
+
+
+.ietext{float:left;
+        width:760px;
+		margin-top:20px;
+		font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+		
+        }
+		
+		
+.aaa{
+clear:both;
+overflow:hidden;
+	}
+	
+	
+.bbb{float:left;
+     margin:20px 10px 0px 20px;
+	 width:100px;
+	}
+	
+.ccc{float:left;
+     margin:20px 20px 0px 0px;
+     font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+	 font-size:18px;
+	 width:710px
+	}
+	
+		
+<!--ここから親ページ-->
+
+.gakubu{width:270px;
+        height:250px;
+	}
+
+
+
+.gakubu-end{  
+    	width:270px;
+        height:250px;
+     	margin:50px 0px 0px 0px;
+		float:left;
+		}
+		
+.kaop{width:100px;
+      float:left;
+	  margin:10px 50px 0px 10px;
+	}
+	
+.kaop-end{width:100px;
+      float:left;
+	  margin:10px 10px 0px 0px;
+	  
+	  }
+
+
+.bu{float:left;
+    margin-left:auto;
+	margin-right:auto;
+    }
+	
+.line{float:left;
+      width:212px;
+	  margin-left:auto;
+   	margin-right:auto;
+	  }
+
+.name{margin-top:10px;
+	}
+
+.face{margin-bottom:10px;
+	}

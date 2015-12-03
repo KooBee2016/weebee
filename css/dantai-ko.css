@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.dantailevel{
+ padding: 10px;
+ border: medium solid #000;
+ z-index:-1;
+ position:static;
+ margin:80px 30px 30px 0px;
+ }
+ 
+
+ 
+.dantaitext,.dantaitext2,.leveltext{font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+font-family:}
+
+.dantaitext,.dantaitext2,.dantailevel{font-size:13px;}
+
+.dantainame{font-size:30px;
+font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+font-weight:900;
+line-height:1.2;
+margin-top:30px;
+/* text-shadow: 0px 1px 2px rgba(0,0,0,0.4);*/
+ color:#3A3A3A;}
+
+.dantaitext{text-align:left;
+            margin-left:20px;
+			width:630px;
+			}
+			
+.dantaitext2{text-align:left;
+			width:630px;
+			margin:0px 0px 10px 20px;
+			}
+			
+.circle{font-family:"Times New Roman", Times, serif;
+        text-align:left; margin-left:25px;
+		}
+
+.dantaibox{border:1px solid #000;
+           width:80%;
+		   margin-left:25px;}
+		   
+.tag{margin-left:40px;
+	}
+
+.shoukai{style="text-align:left; 
+         margin-left:20px;
+	}
+
+.hoshi{position:relative;
+       top:-25px;}
+	  
+.level{padding-top:2px;
+	}
+	   
+.osusume{position:relative;
+       top:-25px;}
+	   
+.okane{position:relative;
+       top:-25px;}
+	   
+.dantai{width:960px;
+padding:10px;
+overflow:hidden;
+border:solid;
+margin:10px;
+clear:both;
+}
+
+.shinkare-menu{
+width:660px;
+margin:30px 0px 0px 200px
+}
+
+#smenu{width:100px;
+float:left;}

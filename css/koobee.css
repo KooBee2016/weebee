@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+text-align:center; 
+/*background-image:url(../image/koobee/back.png);*/
+background-repeat:repeat;
+width: 1349px;
+height: auto;
+}
+
+.wrapper{width:1349px;
+        overflow:visible;
+		margin:0px auto;
+        margin-bottom: 35px;
+		z-index:5;
+		text-align:center;
+		}
+		
+.koobee{
+    margin-top: 60px;
+}
+#mailform{
+    margin-bottom: 60px;
+}
+#inquiry{
+    width: 1349px;
+    height: 100px;
+}
+.nav{width:960px;
+background-repeat:repeat;
+ text-align:center;
+ margin:0 auto;}
+ 
+.rinen{font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+font-weight:bold;
+color:#D8D8D8;
+}
+
+.naviicon1{margin:10px 20px 10px 170px;}
+
+.naviicon2{margin:10px 20px;}
+
+.naviicon3{margin:10px 170px 10px 20px;}
+
+
+.fixed {
+    position: fixed;
+    top: 0;
+    width:960px;
+    z-index: 10000;
+}
+
+.seesawbox{width:960px;
+background-repeat:repeat;
+ text-align:center;
+ margin:0 auto;}
+
+
+.seesaw{width:200px;
+margin:10px 20px;
+}
+
+.akishinkanbox{width:960px;
+background-repeat:repeat;
+ text-align:center;
+ margin:0 auto;}
+
+.akishinkan{width:200px;
+margin:10px 20px;
+}
+
+.weebeebox{width:960px;
+background-repeat:repeat;
+ text-align:center;
+ margin:0 auto;}
+
+
+.memberbox{width:960px;
+background-repeat:repeat;
+ text-align:center;
+ margin:0 auto;}
+
+
+
+.image10{
+margin:10px 15px;
+}
+
+.leftbox{width:350px;
+height:400px;
+float:left;
+}
+
+.rightbox{width:450px;
+height:330px;
+float:left;
+padding-bottom: 70px;
+}
+
+.memberphoto{width:200px; 
+margin:40px 0px 0px 70px;}
+
+.namebox{margin-top:50px;
+margin-right:50px;
+text-align:left;}
+
+.introductionbox{margin-right:90px;
+text-align:left;}
+
+span.introduction{
+	width:350px;
+	font-size:12px;
+
+	text-align:left;
+font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+}
+
+span.name{font-size:50px;
+font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+margin:20px 80px 0px 0px;
+}
+
+.iconbox{
+	clear:both;
+text-align:right;
+width:350px;}
+
+.curie{
+	position:absolute;
+	left:600px;
+    top:15px;
+}
+
+.curie2{
+	position:absolute;
+	left:600px;
+}
+
+
+.busyophoto{width:300px;
+margin-top:70px;}
+
+.mailbox{width:600px;
+margin-left:190px;
+text-align:left;}
+
+/* サムネイルリストのCSS */
+    #content {
+        width: 665px;
+        margin: 150px auto 0;
+    }
+     
+    #content .cookie_list {
+        width: 665px;
+        margin: 0 auto 15px;
+    }
+     
+    #content .cookie_list li {
+        float: left;
+        padding-right: 15px;
+    }
+     
+    #content li.lc {
+        padding: 0;
+    }
+     
+    /* 隠しコンテンツのCSS */
+    .cookies {
+        position: relative;
+        display: none;/* ライトボックス表示するコンテンツは消しておきます */
+        width:800px;/* 隠しコンテンツの横幅 */
+        height:400px;/* 隠しコンテンツの高さ */
+		text-align:center;
+    }
+     
+    .cookies img {
+        position: absolute;
+        top: 16px;
+        left:15px;
+    }
+     
+    .cookies h3 {
+        position: absolute;
+        width: 400px;
+        top: 10px;
+        left: 343px;
+        border-bottom: 1px dotted #666666;
+        padding-bottom: 7px;
+        text-align: center;
+    }
+     
+    .cookies p {
+        position: absolute;
+        width: 205px;
+        top: 45px;
+        left: 343px;
+        line-height: 1.6;
+    }
+     
+    .cookies table {
+        position: absolute;
+        width: 400px;
+        top: 100px;
+        left: 350px;
+        font-size: 86%;
+        border: 1px solid #d1c9bd;
+		margin-bottom:30px;
+    }
+     
+    .cookies table th {
+        width: 34%;
+        background-color: #f0e0c8;
+        border-right: 1px solid #d1c9bd;
+        border-bottom: 1px solid #d1c9bd;
+        padding: 5px;
+        vertical-align: middle;
+    }
+     
+    .cookies table td {
+        width: 64%;
+        background-color: #ffffff;
+        border-right: 1px solid #d1c9bd;
+        border-bottom: 1px solid #d1c9bd;
+        padding: 5px;
+    }

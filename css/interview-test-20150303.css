@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrapper{width:1349px;
+height:3450px;
+background-color:#F7F4ED;}
+
+.header{width:1349px;
+height:158px;}
+
+.interview{width:720px;
+height:auto;
+margin-left:180px;
+margin-top:48px;
+float:left;
+background-color:#FFF;}
+
+.sankaku{width:67px;
+height:67px;
+float:left;}
+
+.interview-info{width:720px;
+height:162px;
+margin-bottom:32px;}
+
+.number{font-size:30px;
+margin-left:23px;
+margin-top:23px;
+float:left;}
+
+.date{font-size:30px;
+margin-left:64px;
+margin-top:23px;
+float:left;}
+
+.name{margin-left:90px;
+font-size:34px;
+clear:both;
+float:left;
+margin-top:10px;}
+
+.department{margin-top:19px;
+font-size:24px;
+float:left;}
+
+.copy{margin-left:90px;
+font-size:36px;
+padding-top:10px;
+padding-bottom:32px;
+clear:both;}
+
+.interview-picture{width:600px;
+margin-top:32px;
+height:400px;
+margin-left:60px;}
+
+.interview-intro{width:600px;
+height:70px;
+margin-top:36px;
+margin-left:72px;
+font-size:21px;}
+
+.interview-writer{width:600px;
+height:45px;
+margin-top:30px;
+margin-left:50px;
+font-size:16px;}
+
+ul#tab {
+	zoom: 1;
+	/*border-bottom: 3px solid #c81528;*/
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+ul#tab:after { content:"."; display: block; height:0px; clear:both; line-height:0; visibility:hidden; }
+
+ul#tab li.selected{width:66px;
+margin-right:10px;
+margin-left:270px;
+}
+
+ul#tab li {
+	float: left;
+	text-align:center;
+	width:60px;
+	margin-left:20px;
+}
+ul#tab li:last-child {
+	background: none;
+}
+ul#tab li a {
+	display: block;
+	width: 80px;
+	padding: 8px 0;
+	text-decoration: none;
+	/*color: #222;*/
+}
+ul#tab li a:hover {
+	/*background: #c95560;
+	color: #fff;*/
+}
+ul#tab li.active,
+ul#tab li.active a,
+ul#tab li.active a:hover {
+	/*background: #c81528;
+	color: #fff;*/
+}
+#detail {
+	clear: both;
+	overflow: hidden;
+	width: 1170px;
+	height: 500px;
+	padding: 5px;
+}
+.tabbox {
+	display: none;
+}
+
+.interview-sentence{width:720px;
+height:auto;}
+
+.midashi{width:720px;
+height:28px;
+font-size:28px;
+margin-left:40px;
+margin-top:45px;}
+
+.question{width:630px;
+height:18px;
+margin-top:50px;
+margin-left:40px;
+font-size:18px;}
+
+.honbun{width:630px;
+height:auto;
+margin-top:25px;
+margin-left:53px;
+margin-right:53px;
+font-size:18px;
+margin-right:70px;}
+
+.back{width:720px;
+height:75px;
+margin-top:0px;
+margin-left:50px;
+margin-bottom:32px;
+font-size:30px;}
+
+.rightbox{width:200px;
+height:1000px;
+margin-right:180px;
+float:left;
+margin-top:48px;
+margin-left:69px;
+margin-bottom:96px;}
+
+
+.recommend{width:200px;
+height:57px;}
+
+.recommend-box{width:200px;
+height:133px;
+margin-top:48px;}
+
+.recommend-name{width:200px;
+height:14px;
+font-size:14px;
+margin-top:16px;}
+
+.recommend-information{width:200px;
+height:30px;
+font-size:14px;
+margin-top:12px;}

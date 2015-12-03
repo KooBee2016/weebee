@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+.four{width:960px;
+height:700px;
+margin:100px 0px 100px 0px;	
+overflow:hidden;
+text-align:left;
+overflow:hidden;
+clear:both;
+background-image:url(../image/koopon/koopon-item2014/choice.jpg);
+}
+
+
+
+ul#choice {
+}
+
+
+
+ul#choice li {
+	float:left;
+	margin:530px 78px 0px 80px ;
+}

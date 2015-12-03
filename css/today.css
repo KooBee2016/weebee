@@ -1,0 +1,91 @@
+.sen{
+    display: block;
+    width: 990px;
+    height:80px;
+    font-size: 34px;
+}
+
+.owari{
+    display: block;
+    width: 990px;
+    height:110px;
+    font-size: 34px;
+}
+
+#toziru_1{
+    display: block;
+    width: 990px;
+    height: 130px;
+    font-size: 46px;
+}
+
+#toziru_2{
+    display: block;
+    width: 990px;
+    height: 130px;
+    font-size: 46px;
+}
+
+#toziru_3{
+    display: block;
+    width: 990px;
+    height: 130px;
+    font-size: 46px;
+}
+
+#toziru_4{
+    display: block;
+    width: 990px;
+    height: 130px;
+    font-size: 46px;
+}
+
+#toziru_5{
+    display: block;
+    width: 990px;
+    height: 130px;
+    font-size: 46px;
+}
+
+#toziru_6{
+    display: block;
+    width: 990px;
+    height: 130px;
+    font-size: 46px;
+}
+
+#toziru_7{
+    display: block;
+    width: 990px;
+    height: 130px;
+    font-size: 46px;
+}
+
+#toziru_8{
+    display: block;
+    width: 990px;
+    height: 130px;
+    font-size: 46px;
+}
+
+#toziru_9{
+    display: block;
+    width: 990px;
+    height: 130px;
+    font-size: 46px;
+}
+
+#toziru_10{
+    display: block;
+    width: 990px;
+    height: 130px;
+    font-size: 46px;
+}
+
+.name{
+    float: left;
+}
+
+#moji1{
+    float: right;
+}

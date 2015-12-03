@@ -1,0 +1,135 @@
+@charset "utf-8";
+body {
+  /* 画像ファイルの指定 */
+}* CSS Document */
+
+
+.-wrapper{width:1000px;
+height:1000px;
+        overflow:visible;
+		text-align:left;
+		margin:0px auto;
+		z-index:5;
+		  background-image: url(../image/shokudoru/back.jpg);
+  background-size: 100% 100%;
+
+		}
+
+
+.s-logo{ width:960px;
+margin:50px 0px 0px 250px;
+text-align:left;}
+
+.top{height:auto;
+	width:960px;
+	margin:0px 0px 0px 00px;
+position:relative; /* 絶対配置の基準点 */
+width:100%; /* 600px以下は幅いっぱいに広げる */
+margin:0 auto; /* ブロック要素の中央揃え */
+text-align:center; /* インライン要素の中央揃え */
+
+	}
+
+.shokai{ width:960px;
+		 height:auto;
+		 text-align:center;
+  position:relative; /* 絶対配置の基準点 */
+width:100%; /* 600px以下は幅いっぱいに広げる */
+margin:0 auto; /* ブロック要素の中央揃え */
+text-align:center; /* インライン要素の中央揃え */
+
+}
+		 
+.mame {
+	
+  position: relative;
+  overflow: hidden;
+
+}
+
+.mame ul {
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+.mame ul li {
+  position: relative;
+  left: -50%;
+  float: left;
+  margin-left:70px;
+}
+	  
+
+.news {
+	margin-top:50px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.news ul {
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+.news ul li {
+  position: relative;
+  left: -50%;
+  float: left;
+  margin-left:70px;
+}
+
+
+
+.uranai{
+	height:400px;
+	width:600px;
+	margin-top:0px;    
+		text-align:center;
+        margin-left:auto;
+		margin-right:auto;
+        text-align:left;
+		}	  		 
+		
+p.sample1 {font-family: "ＭＳ ゴシック",sans-serif; }		
+
+.slideshow-container-shokudoru {
+	position: relative;
+	clear: both;
+	height: 400px; /* This should be set to be at least the height of the largest image in the slideshow */
+	width:900px;
+	margin-top:50px;
+	}
+	
+div.loader-shokudoru {
+	position: absolute;
+	top: 0;
+	left: 151px;
+	background-image: url('loader.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	width: 960px;
+	height: 400px; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+
+div.slideshow-shokudoru {
+
+}
+div.slideshow-shokudoru span.image-wrapper {
+	display: block;
+	position: absolute;
+	margin-left:200px;
+}
+	
+
+.gai{height:1400px;
+     text-align:center}
+	 
+.tati{height:1400px;
+     text-align:center}
+	 	 
+.nishi{height:1400px;
+     text-align:center}		 

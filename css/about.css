@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,h1,h2,h3,h4,h5,h6,address,div,blockquote,p,pre{
+	line-height: 1.6;
+}
+
+.logo-a{
+	width:700px;
+	height:50px;
+}
+
+.intro{
+	width:900px;
+	color:#666;
+	font-size:15px;
+	padding:30px 10px;
+	margin:10px 20px;
+}
+
+.sidebanner{
+	width:600px;
+	margin:0 150px;
+}
+
+
+
+.sidebanner li{
+	width:200px;
+	float:left;
+}
+
+.main-about{
+	width:960px;
+}
+

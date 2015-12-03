@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.mainbox-s{width:900px;
+overflow:hidden;
+	  float:left;}
+
+
+.snap2{font-size:24px;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-weight:bold;
+line-height:1.2;
+ text-shadow: 0px 1px 2px rgba(0,0,0,0.4);
+ color:#3A3A3A;}
+ 
+.snap3{font-size:14px;
+line-height:1.6;}
+
+.snap1{font-size:16px;
+ font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+ font-weight:bold;
+ }
+ 
+.snaptext{border: 1px #4D4D4D solid;
+          padding: 10px;  
+		   border-radius: 20px;
+}
+ 
+.recent{width:80%;
+margin-left:60px;
+}
+
+.snaptop{width:960px;
+float:left;}
+
+.snapmain{widows:700px;
+          height:260px;
+		  text-align:center;
+		  padding:20px;
+		 }
+	
+.snapw-1{width:300px;
+height:350px;
+float:left;
+}
+.snapw-2{width:400px;
+height:350px;
+float:left;}
+
+.snapm-1{width:250px;
+height:350px;
+float:left;
+}
+.snapm-2{width:400px;
+height:400px;
+float:left;}
+
+.women{width:50px;
+       height:50px;}
+
+.order{position: relative;
+ top: -310px;
+ left: 50px;
+}
+
+.snapnew{width:900px;}
+
+.order2{position: relative;
+top:-310px;
+ left:-10px;
+}
+
+.order3{position: relative;
+ top: -80px;
+ left:140px;
+}
+
+.snap-name{font-family:Georgia, "Times New Roman", Times, serif;
+font-weight:bold;
+           font-size:8px;
+		   margin-left:30px;}
+		   
+.sanpw{height:500px;}
+
+.new2{width:900px;
+      height:400px;
+	 }
+	  
+.new3{width:200px;
+      height:200px;}
+	  
+.subbox2{width:240px;
+height:650px;
+overflow:hidden;
+	   float:left;
+	   margin-left:20px;}
+	   
+	   
+.snappast{width:700px;
+          float:left;}
+
+
+.font-name{
+line-height:25px;
+letter-spacing:2px;
+}
+
+.font-shousai{
+line-height:20px;
+letter-spacing:2px;
+}
+
+
+		  
+
+.itiran-image{
+width:150px; 
+margin:10px 5px;
+}
+
+
+		  
+.itiran-left{width:390px;
+float:left;}
+
+
+.itiran-center{width:180px;
+float:left;}
+
+
+.itiran-right{width:390px;
+float:left;}
+
+.itiran-last{width:800px;}
+

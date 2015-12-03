@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ibe-text{font-size:20px;
+		font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+		text-align:left;
+		padding:10px;
+		color:#09F;}
+		
+.ibe-text2{font-size:15px;
+		font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+		text-align:left;
+		padding:10px;
+		color:#09F;}
+		
+	
+.ibebox{width:700px;}
+
+.event1{width:200px;
+        height:215px;
+		margin:15px 15px 15px 20px;
+		float:left;
+		/*border:solid 1px;*/
+		
+	    }
+		
+.event{ width:200px;
+        height:250px;
+		margin:15px 15px 15px 10px;
+		float:left;
+		/*border:solid 1px;*/
+		}
+  
+.event-img{width:180px;
+           height:125px;
+		   overflow:hidden;
+		   margin:0px 10px;
+}
+		   
+.event-text{width:200px;
+           height:120px;
+		   }
+			
+.eve-name{font-size:14px;
+		  font-weight:bolder;
+		  margin:5px 0px 3px 10px;
+		  /*border-bottom: 1px dotted #000000;*/
+}
+
+.eve-names{font-size:12px;
+		  font-weight:bolder;
+		  margin:5px 0px 3px 10px;
+		 /* border-bottom: 1px dotted #000000;*/
+}
+
+.eve-namess{font-size:10px;
+		  font-weight:bolder;
+		  margin:5px 0px 3px 10px;
+		 /* border-bottom: 1px dotted #000000;*/
+}
+		  
+.eve-name2{font-size:13px;
+          margin-left:10px;
+		  color:#9A9A9A;
+		  text-align:left;
+}
+
+.eve-name2s{font-size:11px;
+          margin-left:10px;
+		  color:#9A9A9A;
+		  text-align:left;
+}
+
+
+		  
+		  
+.ibakaremonth{width:230px;}
+
+.week{color:#000;}
+			
+
+/* サムネイルリストのCSS */
+    #content {
+        width: 665px;
+        margin: 150px auto 0;
+    }
+     
+    #content .cookie_list {
+        width: 665px;
+        margin: 0 auto 15px;
+    }
+     
+    #content .cookie_list li {
+        float: left;
+        padding-right: 15px;
+    }
+     
+    #content li.lc {
+        padding: 0;
+    }
+     
+    /* 隠しコンテンツのCSS */
+    .cookies {
+        position: relative;
+        display: none;/* ライトボックス表示するコンテンツは消しておきます */
+        width: 800px;/* 隠しコンテンツの横幅 */
+        height:800px;/* 隠しコンテンツの高さ */
+    }
+     
+    .cookies img {
+        position: absolute;
+        top: 16px;
+        left:15px;
+    }
+     
+    .cookies h3 {
+        position: absolute;
+        width: 400px;
+        top: 10px;
+        left: 343px;
+        border-bottom: 1px dotted #666666;
+        padding-bottom: 7px;
+        text-align: center;
+    }
+     
+    .cookies p {
+        position: absolute;
+        width: 205px;
+        top: 45px;
+        left: 343px;
+        line-height: 1.6;
+    }
+     
+    .cookies table {
+        position: absolute;
+        width: 400px;
+        top: 100px;
+        left: 350px;
+        font-size: 86%;
+        border: 1px solid #d1c9bd;
+		margin-bottom:30px;
+    }
+     
+    .cookies table th {
+        width: 34%;
+        background-color: #f0e0c8;
+        border-right: 1px solid #d1c9bd;
+        border-bottom: 1px solid #d1c9bd;
+        padding: 5px;
+        vertical-align: middle;
+    }
+     
+    .cookies table td {
+        width: 64%;
+        background-color: #ffffff;
+        border-right: 1px solid #d1c9bd;
+        border-bottom: 1px solid #d1c9bd;
+        padding: 5px;
+    }

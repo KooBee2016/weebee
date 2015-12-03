@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+ul,li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+
+#scroll{height:220px;
+background-color:#b7e589;
+padding:50px 0px 50px 0px;
+}
+
+.fb{width:960px;
+}
+
+.tag{height:120px;
+}
+
+
+.place{folat:left;
+width:100px;
+height:30px;
+margin:70px 0px 0px 120px;
+float:left;
+}
+
+
+.place2{
+width:100px;
+height:30px;
+
+margin:70px 0px 0px 100px;
+float:left;
+}
+
+.choise{float:left;
+width:100px;
+height:30px;
+margin:30px 0px 0px 100px;
+
+}
+
+
+
+#content2014 {width:960px;
+clear:both;
+}
+
+.fb{width:960px;
+clear:both;
+}
+
+.info{height:50px;
+font color:#66320e;
+background:url(../image/koopon/koopon-item/info.png);
+width:300px;
+text-align: center;
+}
+
+.con{font-size:11px;
+width:280px;
+height:40px;
+font-family:
+
+}
+	
+.logok{float:left;
+        margin :0px 0px 0px 40px;
+		}
+		
+#logoc{margin:100px 150px 100px 350px
+}
+
+.content{float:left;
+width:300px;
+height:250px;
+margin:50px 30px 20px 0px;
+}
+
+.contente{float:left;
+	width:300px;
+height:250px;
+margin:50px 0px 20px 0px;
+}
+
+map{width:960px;
+}

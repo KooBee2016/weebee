@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+		
+.picture{width:940px;
+height:650px;
+margin-left:25px;
+margin-right:25px;
+margin-top:30px;
+margin: 0px auto}
+
+
+.sentence{width:940px;
+height:auto;
+margin-left:25px;
+margin-right:25px;
+margin-top:30px;
+margin: 0px auto}
+
+.question-t{width:910px;
+height:auto;
+margin-top:15px;}
+
+.text-t{width:910px;
+height:auto;
+margin-top:15px;
+margin-bottom:60px;}
+
+
+.other-interview{width:940px;
+height:350px;
+margin-left:25px;
+margin-right:25px;
+margin-top:30px;
+margin: 0px auto}
+
+
+.other-interview-text{width:940px;
+height:350px;
+margin-bottom:0px;
+margin-top:50px;}
+
+
+.interview-p1{width:100px;
+height:100px;
+float:left;
+margin:20px 60px 50px 65px;}
+
+.interview-p2{width:100px;
+height:100px;
+float:left;
+margin:20px 60px 50px 65px;}
+
+.interview-p3{width:100px;
+height:100px;
+float:left;
+margin:20px 60px 50px 65px;}
+
+.interview-p4{width:100px;
+height:100px;
+float:left;
+margin:20px 60px 50px 65px;}
+
+.interview-p5{width:100px;
+height:100px;
+float:left;
+margin:20px 60px 50px 65px;}
+
+.interview-p6{width:100px;
+height:100px;
+float:left;
+margin:20px 60px 50px 65px;}
+
+.interview-p7{width:100px;
+height:100px;
+float:left;
+margin:20px 60px 50px 65px;}
+
+.interview-p8{width:100px;
+height:100px;
+float:left;
+margin:20px 60px 50px 65px;}
+
+
+#sample06{
+  background-color: #00BFFF;
+  color: #FFFFFF;
+  border-radius: 10px; /* 4つのコーナーを半径10pxの角丸に */
+  padding-left: 20px; /* 左パディングを20px */
+}
+
+.map{width:940px;
+height:850px;
+margin:auto}
+
+
+.kihon{width:940px;
+height:500px;
+margin:auto;}
+
+.futter{width:960px;
+margin: 0px auto}
+
+.itiran{float:left;}
+

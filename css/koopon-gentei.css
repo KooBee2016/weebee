@@ -1,0 +1,252 @@
+@charset "utf-8";
+/* CSS Document */
+.content-koopon{
+	width:730px;
+	margin:20px 115px;
+	}
+	
+.page1-city{
+	width:730px;
+	height:316px;
+	background:url(../image/koopon/page1-all.png);}
+
+.page1-cut{
+	width:170px;
+	height:316px;
+	float:left;
+	margin-left:55px;}
+
+.page1-cut-img{
+	margin-top:145px;}
+
+.page1-others{
+	width:100px;
+	height:316px;
+	margin-left:83px;
+	float:left;}
+
+.page1-others-img{
+	margin-top:165px;}
+
+.page1-food{
+	width:170px;
+	height:316px;
+	margin-left:78px;
+	float:left;}
+
+.page1-food-img{
+	margin-top:145px;}
+
+.koopon-logo{
+	width:730px;
+	height:80px;
+	background:url(../image/koopon-logo.png);}
+
+.koopon-logotext{
+	width:460px;
+	height:20px;
+	margin-top:32px;
+	float:right;}
+	
+.koopon-1{
+	width:243px;
+	height:428px;
+	background:#fff999;
+	float:left;
+	margin:20px;}
+
+.koopon-2{
+	width:244px;
+	height:428px;
+	float:left;
+	margin:20px;}
+
+.koopon-3{
+	width:243px;
+	height:428px;
+	float:left;}
+
+.koopon-4{
+	width:244px;
+	height:428px;
+	background:#fff999;
+	float:left;}
+
+.caption{
+	height:15px;
+	margin-top:5px;
+	font-size:10px;
+	padding:10px 10px 0px;}
+
+.caption-s{
+	height:15px;
+	margin-top:5px;
+	font-size:9px;
+	padding:10px 8px 0px;}
+
+.koopon-tytle{
+	font-size:25px;
+	height:30px;
+	padding:0px 10px;
+	font-weight:bold;}
+
+.koopon-tytle-s{
+	font-size:20px;
+	height:30px;
+	padding:0px 10px;
+	font-weight:bold;}
+
+.koopon-tytle img{
+	float:left;}
+
+.shousai{
+	height:20px;
+	padding:0px 10px;
+	font-size:15px;}
+
+.koopon-pic{
+	width:212px;
+	height:147px;
+	clear:both;
+	margin:7px auto;}
+
+.koopon{
+	width:232px;
+	height:160px;
+	 background-image:
+	  url(../image/koopon/koopon-back.png);
+	margin:0px auto;
+	clear:both;}
+
+.page{
+	font-size:11px;
+	text-align:right;
+	padding:5px 10px;}
+
+.gentei{
+	height:25px;
+	font-size:20px;
+	color:#FF0;
+	font-weight:bold;
+	text-align:center;}
+.gentei-s{
+	height:25px;
+	font-size:15px;
+	color:#FF0;
+	font-weight:bold;
+	text-align:center;}
+
+.ku-pon-ssss{
+	height:66px;
+	clear:both;
+	font-size:8px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	padding:3px 9px;}	
+
+.ku-pon-sss{
+	height:60px;
+	clear:both;
+	font-size:10px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	padding:6px 9px;}		
+
+.ku-pon-ss{
+	height:62px;
+	clear:both;
+	font-size:11px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	padding:5px 10px;}
+
+.ku-pon-s{
+	height:62px;
+	clear:both;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	padding:5px 10px;}
+	
+.ku-pon{
+	height:62px;
+	clear:both;
+	font-size:15px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	padding:5px 10px;}
+	
+.ku-pon-l{
+	height:62px;
+	clear:both;
+	font-size:18px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	padding:5px 10px;}	
+	
+.kigen{
+	height:20px;
+	clear:both;
+	padding-bottom:5px;
+	font-size:15px;
+	color:#FF0;
+	font-weight:bold;
+	text-align:center;}
+	
+.page-bottom{
+	height:100px;
+	clear:both;}
+
+   
+.pic-k{width:217px;
+       height:130px;
+	   float:left;
+	  }
+	   
+.text-k{width:440px;
+      height:135px;
+	  float:left;
+	  margin-left:20px;
+	  text-align:left end;
+	  background-image:
+	  url(../image/koopon/koopon-back.png);}
+	  
+.post-k{margin:15px 0px 20px 15px;
+      width:700px;
+      height:160px;
+	  /*box-shadow: 0 0 3px rgba(0, 0, 0, 0.1) inset, 0 2px 1px rgba(0, 0, 0, 0.1) inset; */
+	  padding:20px 0px 0px 20px;
+	  background:#fff999;
+	 }
+	  
+.b-k{ box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px #FFFFFF inset, 0 -2px 2px rgba(0, 0, 0, 0.25) inset;}
+
+.c-k{font-size:12px;
+color:#262626;
+
+float:left;}
+
+.d-k{color:#FF2F2F;
+   font-size:10px;
+   float:left;}
+   
+.shadow-name{clear:both;
+          color:#FF0;}
+
+
+.shadow-k{clear:both;
+         font-size:20px; }
+
+
+.wrapper-k{width:580px; 
+overflow:visible;
+		text-align:left;
+		margin:0px auto;
+		z-index:5;}
+
