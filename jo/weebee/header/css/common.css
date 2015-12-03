@@ -1,0 +1,31 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,
+pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+	margin:0;padding:0;
+	font-family:'Lato', 'Hiragino Kaku Gothic ProN', 'ƒqƒ‰ƒMƒmŠpƒS ProN W3', Meiryo, ƒƒCƒŠƒI, sans-serif;
+	color: #676566;
+}
+
+a {
+	text-decoration: none;
+	data-ajax: false;
+}
+
+li {
+}
+
+ul {
+	font-size: 0;
+	list-style-type: none;
+}
+
+hr {
+	height: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}

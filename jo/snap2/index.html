@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.moreview.js"></script>
+  <script type="text/javascript" src="js/jquery.tab.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/snap.css">
+</head>
+<body>
+
+<div class="snap-wrapper">
+
+<div class="snap-index_top">
+  <img src="img/title.jpg" width="1280px" alt="title">
+</div>
+
+<ul id="js-tab_main" class="snap-index_navi">
+  <li>
+    <img src="img/spring.png" width="100%" alt="spring">
+  </li>
+  <li>
+    <img src="img/summer.png" width="100%" alt="spring">
+  </li>
+  <li>
+    <img src="img/autumn_on.png" width="100%" alt="spring">
+  </li>
+  <li>
+    <img src="img/winter.png" width="100%" alt="spring">
+  </li>
+</ul>
+
+
+<!-- 以下、NEW
+<div class="snap-index_new">
+  <p class="snap-index_logo">NEW</p>
+  <div></div>
+  <div class="snap-link_box">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/w50_1.jpg" width="100%" alt="new"></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </div>
+</div>
+-->
+
+<div id="js-tab_sub">
+<!-- spring -->
+  <ul id="js-list_spring" class="snap-index_list js-hide">
+  <li class="snap-index_left snap-link_box">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/m50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+  <li class="snap-index_right snap-link_box">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/w50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+  <li class="snap-index_left snap-link_box">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/m50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+  <li class="snap-index_right snap-link_box">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/w50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+    <li class="snap-index_left snap-link_box js-list">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/m50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+  <li class="snap-index_right snap-link_box js-list">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/w50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+</ul>
+<!-- summer -->
+  <ul id="js-list_summer" class="snap-index_list js-hide">
+  <li class="snap-index_left snap-link_box">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/m50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+  <li class="snap-index_right snap-link_box">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/w50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+  <li class="snap-index_left snap-link_box">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/m50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+  <li class="snap-index_right snap-link_box">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/w50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+    <li class="snap-index_left snap-link_box js-list">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/m50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+  <li class="snap-index_right snap-link_box js-list">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/w50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+</ul>
+<!-- autumn -->
+  <ul id="js-list_autumn" class="snap-index_list js-on">
+  <li class="snap-index_left snap-link_box">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/m50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+  <li class="snap-index_right snap-link_box">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/w50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+  <li class="snap-index_left snap-link_box">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/m50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+  <li class="snap-index_right snap-link_box">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/w50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+    <li class="snap-index_left snap-link_box js-list">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/m50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+  <li class="snap-index_right snap-link_box js-list">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/w50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+</ul>
+<!-- winter -->
+  <ul id="js-list_winter" class="snap-index_list js-hide">
+  <li class="snap-index_left snap-link_box">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/m50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+  <li class="snap-index_right snap-link_box">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/w50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+  <li class="snap-index_left snap-link_box">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/m50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+  <li class="snap-index_right snap-link_box">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/w50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+    <li class="snap-index_left snap-link_box js-list">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/m50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+  <li class="snap-index_right snap-link_box js-list">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/w50.jpg" width="100%" alt=""></p>
+  <div class="snap-index_no"><span class="snap-index_font">NO.<br><span>33</span></span></div>
+  <p class="snap-index_name">Takeda&nbsp;Minori</p>
+  <div></div>
+  <p class="snap-index_date">2015.10.10</p>
+  </li>
+</ul>
+<div style="clear:both;"></div>
+<div id="js-more" class="snap-index_view_more">more view</div>
+</div>
+
+
+<div class="snap-other">
+<ul class="js-tab">
+  <li class="js-select" style="float: left;">RANKING</li>
+</ul>
+<ul class="snap-other js-content">
+  <li class="js-list">
+  <li class="snap-link_box">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/m50.jpg" width="100%" alt=""></p>
+  <p><span class="snap-rank">1.</span><span class="snap-name">Takeda<br>Minori</span></p>
+  </li>
+  <li class="snap-link_box">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/w50.jpg" width="100%" alt=""></p>
+  <p><span class="snap-rank">2.</span><span class="snap-name">Takeda<br>Minori</span></p>
+  </li>
+  <li class="snap-link_box">
+  <a href="w50.html" class="snap-link"></a>
+  <p><img src="img/m49.jpg" width="100%" alt=""></p>
+  <p><span class="snap-rank">3.</span><span class="snap-name">Takeda<br>Minori</span></p>
+  </li>
+</ul>
+</div>
+
+</body>
+</html>

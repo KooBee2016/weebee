@@ -1,0 +1,244 @@
+/*
+	Yahoo UI Library Reset CSS
+	http://developer.yahoo.com/yui/reset/
+*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+	font-family: "Hiragino Kaku Gothic ProN",Meiryo,"MS PGothic",Sans-serif;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym {
+    border:0;
+}
+
+------------
+
+
+#wrapper {
+    width: 100%;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #EEEEEE;
+    background-image: url("img/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.logo{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+div#header img {
+    width: 30%;
+    min-width: 200px;
+}
+
+#leader1{
+    width: 90%;
+    height: auto;
+    max-height: 945px;
+    text-align: center;
+    margin: 0 auto;
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    box-pack: justify;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    box-align:end;
+    -webkit-box-align:end;
+    -moz-box-align:end;
+}
+
+
+.leader3 {
+    box-sizing: inherit;
+    max-width: 100%;
+    height: auto;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+
+div#leader1 img {
+    width: 15%;
+    min-width: 0px;
+}
+
+#main {
+    width: 100%;
+}
+
+#hase {
+    height: 100%;
+    min-height: 400px;
+    background-color: #AAAAAA;
+    background-image: url("img/hase.png");
+    background-size: contain;
+    background-repeat:  no-repeat;
+    background-position: 90% 100%;
+} 
+
+#mako {
+    height: 100%;
+    min-height: 400px;
+    background-color: #CCCCCC;
+    background-image: url("img/mako.png");
+    background-size: contain;
+    background-repeat:  no-repeat;
+    background-position: 8% 100%;
+} 
+
+#nomu {
+    height: 100%;
+    min-height: 400px;
+    background-color: #EEEEEE;
+    background-image: url("img/nomu.png");
+    background-size: contain;
+    background-repeat:  no-repeat;
+    background-position: 90% 100%;
+} 
+
+#jo {
+    height: 100%;
+    min-height: 400px;
+    background-color: #BBBBBB;
+    background-image: url("img/jo.png");
+    background-size: contain;
+    background-repeat:  no-repeat;
+    background-position: 0% 100%;
+} 
+
+#ririki {
+    height: 100%;
+    min-height: 400px;
+    background-color: #999999;
+    background-image: url("img/ririki.png");
+    background-size: contain;
+    background-repeat:  no-repeat;
+    background-position: 95% 100%;
+} 
+
+#masashi {
+    height: 100%;
+    background-color: #DDDDDD;
+    background-image: url("img/masashi.png");
+    background-size: contain;
+    background-repeat:  no-repeat;
+    background-position: 10% 100%;
+} 
+
+.profile {
+    padding: 4% 9% 2%;
+    width: 800px;
+    height: 80%;
+}
+
+.profile h1 {
+    font-size: 400%;
+    margin-bottom: 20px;
+    font-family:
+   "ƒqƒ‰ƒMƒm–¾’© Pro",
+   "Hiragino Mincho Pro"
+   "HiraMinProN-W6",
+   "HG–¾’©E",
+   "‚l‚r ‚o–¾’©",
+   "MS PMincho",
+   "MS –¾’©",
+   serif;
+   letter-spacing: 0.01em;
+}
+
+.profile h2 {
+    font-size: 20px;
+    }
+
+.profile h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    }
+    
+.table {
+    margin-bottom: 30px;
+    font-size: 20px;}
+    
+table.table th {
+   border-width: 1px 0px; 
+   border-color: black;
+   border-style: dashed; 
+   padding: 0.3em;
+   }
+   
+table.table tr {
+   border-width: 1px 0px;
+   border-color: black;
+   border-style: dashed; 
+   padding: 0.3em;
+   }
+
+.profile h5 {
+    font-size: 120%;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 800px;
+    clear: both;
+    line-height: 1.7em;
+    font-family:
+   "MS PMincho",
+   "MS –¾’©",
+   "HG–¾’©E",
+   "‚l‚r ‚o–¾’©",
+   "ƒqƒ‰ƒMƒm–¾’© ProN W6",
+   "HiraMinProN-W6",
+   serif;
+}
+
+.right {
+   float: right;
+   text-align: right;
+   padding-left: 50px;
+   }
+
+div.right table {
+   float: right;
+   }
+
+.right h5 {
+   float: right;
+   }

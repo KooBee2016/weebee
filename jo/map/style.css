@@ -1,0 +1,304 @@
+h1 {
+font-size: 18px;
+line-height: 30px;
+color: #000;
+}
+
+a:hover img {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+.m_wrapper {
+    width: 990px;
+    padding-bottom: 200px;
+    background-image: url('img/back.png');
+    margin: 50px auto 0 auto;
+}
+
+.m_relative {
+    position: relative;
+}
+
+.m_01_top {
+    width: 395px;
+    position: absolute;
+    top: 391px;
+    left: 460px;
+    background-color: rgba( 255, 255, 255, 0.80 );
+    padding: 1.5% 40px 1.5% 50px;
+}
+
+.m_02_top {
+    width: 395px;
+    position: absolute;
+    top: 421px;
+    left: 460px;
+    background-color: rgba( 255, 255, 255, 0.80 );
+    padding: 1.5% 40px 1.5% 50px;
+}
+
+.m_03_top {
+    width: 395px;
+    position: absolute;
+    top: 421px;
+    left: 460px;
+    background-color: rgba( 255, 255, 255, 0.80 );
+    padding: 1.5% 40px 1.5% 50px;
+}
+
+.m_04_top {
+    width: 395px;
+    position: absolute;
+    top: 361px;
+    left: 460px;
+    background-color: rgba( 255, 255, 255, 0.80 );
+    padding: 1% 40px 1% 50px;
+}
+
+.m_05_top {
+    width: 395px;
+    position: absolute;
+    top: 361px;
+    left: 460px;
+    background-color: rgba( 255, 255, 255, 0.80 );
+    padding: 1% 40px 1% 50px;
+}
+
+
+ /*キャンパスあるある*/
+
+.m_aru {
+     width: 840px;
+     height: auto ;
+     padding-top: 100px; 
+     padding-bottom: 55px;
+     padding-left: 75px; 
+     padding-right: 75px; 
+     text-align: center;
+}
+
+.m_aru_word {
+     padding-top: 20px;
+     padding-bottom: 50px;
+}
+
+.m_aru_left {
+    width: 840px;
+    height: 200px;
+    text-align: left;
+}
+
+.m_aru_right {
+    width: 840px;
+    height: 200px;
+    text-align: right;
+}
+
+.m_aru_faceL {
+    width: 180px;
+    height: 236px;
+    float: left;
+    text-align: center;
+}
+
+.m_aru_faceR {
+    width: 180px;
+    height: 236px;
+    float: right;
+    text-align: center;
+}
+
+.m_aru_name {
+    padding-top: 5px;
+    text-align: center;
+}
+
+.m_aru_commentL {
+    padding-top: 58px;
+    padding-left: 40px;
+    padding-bottom: 108px;
+}
+
+.m_aru_commentR {
+    padding-top: 58px;
+    padding-right: 40px;
+    padding-bottom: 108px;
+}
+
+.m_01_hr1 {
+    width: 990px;
+    height: 5px;
+    border-top: 5px dashed #f99564;
+}
+
+.m_02_hr1 {
+    width: 990px;
+    height: 5px;
+    border-top: 5px dashed #eb5679;
+}
+
+.m_03_hr1 {
+    width: 990px;
+    height: 5px;
+    border-top: 5px dashed #29aae1;
+}
+
+.m_04_hr1 {
+    width: 990px;
+    height: 5px;
+    border-top: 5px dashed #32c79b;
+}
+.m_05_hr1 {
+
+    width: 990px;
+    height: 5px;
+    border-top: 5px dashed #50c773;
+}
+
+ /*キャンパス三景*/
+
+.m_view {
+    width: 840px;
+    height: 712px;
+    padding-top: 55px;
+    padding-bottom: 65px;
+    padding-left: 75px;
+    padding-right: 75px;
+    text-align: center;
+}
+
+.m_view_div {
+    width: 850px;
+    height: 480px;
+    padding-top: 60px;
+}
+
+.m_view_tab {
+    width: 60px;
+    height: 480px;
+    float: left;
+}
+
+.m_view_window {
+    border: 2px #29a9e0 solid;
+}
+
+.m_view_box {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 243px;
+    left: 200px;
+    background-color: rgba( 255, 255, 255, 0.80 );
+    padding: 35px 45px 35px 45px;
+}
+
+.m_view_form {
+    position: absolute;
+    top: 250px;
+    left: 640px;
+}
+
+.m_view_button {
+    text-align: center;
+    font-size: 35px;
+    width: 44px;
+    height: 44px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px #FFF;
+    background-color: rgba( 255, 255, 255, 0.80 );
+    border-size: 5px;
+    online: 0;
+    cursor: pointer;
+}
+
+.m_01_hr2 {
+    width: 990px;
+    height: 5px;
+    border-top: 5px solid #f99564;
+}
+
+.m_02_hr2 {
+    width: 990px;
+    height: 5px;
+    border-top: 5px solid #eb5679;
+}
+
+.m_03_hr2 {
+    width: 990px;
+    height: 5px;
+    border-top: 5px solid #29aae1;
+}
+
+.m_04_hr2 {
+    width: 990px;
+    height: 5px;
+    border-top: 5px solid #32c79b;
+}
+
+.m_05_hr2 {
+    width: 990px;
+    height: 5px;
+    border-top: 5px solid #50c773;
+}
+
+ /*他のキャンパスを探す*/
+
+.m_other {
+    width: 920px;
+    height: 936px;
+    padding-top: 85px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: center;
+}
+
+.m_other_table {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+    border-collapse:separate;
+    border-spacing:40px;
+}
+
+.m_other_01 {
+    width: 260px;
+    height: 60px;
+    background-image: url('img/01_backbar.png');
+    text-align: center;
+}
+
+.m_other_02 {
+    width: 260px;
+    height: 60px;
+    background-image: url('img/02_backbar.png');
+    text-align: center;
+}
+
+.m_other_03 {
+    width: 260px;
+    height: 60px;
+    background-image: url('img/03_backbar.png');
+    text-align: center;
+}
+
+.m_other_04 {
+    width: 260px;
+    height: 60px;
+    background-image: url('img/04_backbar.png');
+    text-align: center;
+}
+
+.m_other_05 {
+    width: 260px;
+    height: 60px;
+    background-image: url('img/05_backbar.png');
+    text-align: center;
+}
+
+.m_other_tab {
+    padding-top: 5px;
+    padding-right: 7px;
+}

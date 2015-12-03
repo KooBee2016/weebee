@@ -1,0 +1,317 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="js/jquery.mobile.custom.min.js"></script>
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <script>
+    $(window).load(function(){
+      $(".sticker").sticky({ topSpacing: 0, center:true, className:"hey" });
+    });
+</script>
+    <script>
+$(window).bind("touchend", function(event) {
+  var target = event.target || window.target;
+
+  var bindElement = null;
+  if (target.tagName == "A" || $(target).hasClass(tapClass)) {
+      bindElement = $(target);
+  } else if ($(target).parents("a").length > 0) {
+      bindElement = $(target).parents("a");
+  } else if ($(target).parents("." + tapClass).length > 0) {
+      bindElement = $(target).parents("." + tapClass);
+  }
+
+  if (bindElement != null) {
+      Hover().touchstartHoverElement(bindElement);
+  }
+});
+</script>
+  </head>
+  <body>
+    <!-- wrapper -->
+    <div id="wrapper">
+      <!-- header -->
+      <div id="header">
+        <hr>
+        <p class="logo">
+          <a href="http://weebee1212.com/index.php">
+            <img src="./img/logo.png" width="171px" height="74px" alt="logo" >
+          </a>
+        </p>
+        <span class="logo">大学生活を楽しくする情報から
+          <br>お役立ち情報まで、ギュッと一つに！
+          <br>神大生のための”総合情報サイト”
+        </span>
+        <div class="tab">
+          <div class="about absolute">
+            <a href="http://weebee1212.com/about/index.php"></a>
+            <img src="./img/about.png" width="16px" height"17px" align="left" alt="about">
+            <span>運営団体</span>
+          </div>
+          <div class="contact absolute">
+            <a href="http://weebee1212.com/about/index.php#inquiry"></a>
+            <img src="./img/contact.png" width="21px" height"16px" align="left" alt="contact">
+            <span>お問い合わせ</span>
+          </div>
+          <p>
+            <a href="https://twitter.com/weebee2015">
+              <img src="./img/twitter.png" width="30px" height="30px" alt="twitter">
+            </a>
+          </p>
+          <p>
+            <a href="https://www.facebook.com/KooBee.kobe.u">
+              <img src="./img/facebook.png" width="30px" height="30px" alt="facebook">
+            </a>
+          </p>
+        </div>
+      </div>
+      <!-- menu -->
+      <div id="menu" class="sticker">
+        <ul class="list">
+          <li class="top absolute">
+            <a href="http://weebee1212.com"></a>
+            <hr class="top">
+            <img src="./img/top.png" width="40px" height="auto" alt="top">
+            <br clear="all">
+            <span class="top">
+              TOP
+            </span>
+          </li>
+          <li class="list">
+            <hr class="interview">
+            <p>
+              <span class="topic">インタビューを読む</span>
+              <br clear="all">
+              <span class="interview">
+                INTERVIEW
+              </span>
+            </p>
+            <div class="line interview"></div>
+            <ul>
+              <li>
+                <div class="trans trans_interview interview"></div>
+                <div class="trans_blank trans_interview"></div>
+                <div class="box interview absolute">
+                  <a href="http://weebee1212.com/interview/index.php"></a>
+                  <img src="./img/menu01.jpg" width="101px" height="101px" alt="menu01">
+                  <p>
+                    <span class="interview name">情熱取材
+                      <br>
+                    </span>
+                    <span>情熱を届ける
+                      <br>インタビュー
+                    </span>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="list">
+            <hr class="photo">
+            <p>
+              <span class="topic">神大生をみる</span>
+              <br clear="all">
+              <span class="photo">
+                PHOTO
+              </span>
+            </p>
+            <div class="line photo"></div>
+            <ul>
+              <li>
+                <div class="trans trans_photo photo"></div>
+                <div class="trans_blank trans_photo"></div>
+                <div class="box photo absolute">
+                  <a class="photo_link-01" href="http://weebee1212.com/shindai365/index.php?year=15&month=9"></a>
+                  <a class="photo_link-02" href="http://weebee1212.com/snap/index.php"></a>
+                  <a class="photo_link-03" href="http://weebee1212.com/photo_bijo/index.php"></a>
+                  <img src="./img/menu02.jpg" width="101px" height="101px" alt="menu02">
+                  <p>
+                    <span class="photo name">Shindai365
+                      <br>
+                    </span>
+                    <span>毎日笑顔の
+                      <br>神大生を更新中
+                    </span>
+                  </p>
+                  <hr width="300px">
+                  <img src="./img/menu03.jpg" width="101px" height="101px" alt="menu03">
+                  <p>
+                    <span class="photo name">SNAP×SNAP
+                      <br>
+                    </span>
+                    <span>気になる神大の
+                      <br>おしゃれさん
+                    </span>
+                  </p>
+                  <hr width="300px">
+                  <img src="./img/menu04.jpg" width="101px" height="101px" alt="menu04">
+                  <p>
+                    <span class="photo name">美男美女企画
+                      <br>
+                    </span>
+                    <span>神大の
+                      <br>美女とイケメン
+                    </span>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="list">
+            <hr class="lecture">
+            <p>
+              <span class="topic">講義情報を見る</span>
+              <br clear="all">
+              <span class="lecture">
+                LECTURE
+              </span>
+            </p>
+            <div class="line lecture"></div>
+            <ul>
+              <li>
+                <div class="trans trans_lecture lecture"></div>
+                <div class="trans_blank trans_lecture"></div>
+                <div class="box lecture absolute">
+                  <a href="http://weebee1212.com/omotekou/index.php"></a>
+                  <img src="./img/menu05.jpg" width="101px" height="101px" alt="menu05">
+                  <p>
+                    <span class="lecture name">オモテ講
+                      <br>
+                    </span>
+                    <span>すべての講義情報を
+                      <br>あなたに
+                    </span>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="list">
+            <hr class="circle">
+            <p>
+              <span class="topic">サークルを探す</span>
+              <br clear="all">
+              <span class="circle">
+                CIRCLE
+              </span>
+            </p>
+            <div class="line circle"></div>
+            <ul>
+              <li>
+                <div class="trans trans_circle circle"></div>
+                <div class="trans_blank trans_circle"></div>
+                <div class="box circle absolute">
+                  <a class="circle_link-01" href="http://weebee1212.com/shinkare/index.php"></a>
+                  <a class="circle_link-02" href="http://weebee1212.com/dantai/index.php"></a>
+                  <img src="./img/menu06.jpg" width="101px" height="101px" alt="menu06">
+                  <p>
+                    <span class="circle name">シンカレ
+                      <br>
+                    </span>
+                    <span>そうだ！
+                      <br>新歓にいこう！
+                    </span>
+                  </p>
+                  <hr width="300px">
+                  <img src="./img/menu07.jpg" width="101px" height="101px" alt="menu07">
+                  <p>
+                    <span class="circle name">団体図鑑
+                      <br>
+                    </span>
+                    <span>知りたい団体情報が
+                      <br>ここに
+                    </span>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="list">
+           <hr class="job">
+            <p>
+              <span class="topic">バイトを探す</span>
+              <br clear="all">
+              <span class="job">
+                PART-TIME JOB
+              </span>
+            </p>
+            <div class="line job"></div>
+            <ul>
+              <li>
+                <div class="trans trans_job job"></div>
+                <div class="trans_blank trans_job"></div>
+                <div class="box job absolute">
+                  <a href="http://weebee1212.com/job/index.php"></a>
+                  <img src="./img/menu08.jpg" width="101px" height="101px" alt="menu08">
+                  <p>
+                    <span class="job name">神大job
+                      <br>
+                    </span>
+                    <span>神大生のための
+                      <br>バイト情報
+                    </span>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="list">
+            <hr class="coopon">
+            <p>
+              <span class="topic">お店を知る</span>
+              <br clear="all">
+              <span class="coopon">
+                COOPON
+              </span>
+            </p>
+            <div class="line coopon"></div>
+            <ul>
+              <li>
+                <div class="trans trans_coopon coopon"></div>
+                <div class="trans_blank trans_coopon"></div>
+                <div class="box coopon absolute">
+                  <a class="coopon_link-01" href="http://weebee1212.com/coopon/index.php"></a>
+                  <a class="coopon_link-02" href="http://weebee1212.com/koberogu/index.php"></a>
+                  <img src="./img/menu09.jpg" width="101px" height="101px" alt="menu09">
+                  <p>
+                    <span class="coopon name">KooPon
+                      <br>
+                    </span>
+                    <span>気になるお店を
+                      <br>お得なクーポンで
+                    </span>
+                  </p>
+                  <hr width="300px">
+                  <img src="./img/menu10.jpg" width="101px" height="101px" alt="menu10">
+                  <p>
+                    <span class="coopon name">コベログ
+                      <br>
+                    </span>
+                    <span>きっと見つかる
+                      <br>あなたにとっておきのお店
+                    </span>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="list absolute">
+            <a href="http://weebee1212.com/special_content/index.php"></a>
+            <hr class="special">
+            <p>
+              <span class="topic">特別コンテンツ</span>
+              <br clear="all">S
+              <span class="special">
+                PECIAL
+              </span>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
