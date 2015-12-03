@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,address,div,blockquote,pre,p{
+	line-height: 1.6;
+	text-align: center;
+	font-family: Quicksand, 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;	
+}
+
+h1,h2{
+	font-family: "Hiragino Kaku Gothic ProN", 
+	Meiryo, sans-serif;
+	font-family: Quicksand, 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+
+body{
+	background-color:#F7F4ED;
+}
+
+
+.wrapper{width:1350px;
+        overflow:visible;
+        background-color:#F7F4ED; 
+		}
+
+.header{
+	height: 113px;
+	margin: 0px auto;
+}
+		
+
+.content_introduction{
+	width: 800px;
+	height: 160px;
+	margin:0px auto;
+	position: relative;
+}
+
+		  
+.main_box{width:990px;
+	overflow: hidden;
+	margin:0px auto;
+}
+
+
+.subbox{width:240px;
+overflow:hidden;
+	   float:left;
+	   margin-left:20px;}
+
+.icon_image{
+	margin: 40px 0px 0px 200px;
+	float: left;
+}
+	   
+.content_title{
+	font-size: 48px;
+	color: #FFFFFF;
+	float: left;
+	left: 40%;
+	top: 20%;
+	position: absolute;
+	}
+
+.content_desc{
+	font-size:28px;
+	color: #FFFFFF;
+	clear: both;
+	position: absolute;
+	left: 40%;
+	top: 70%;
+	}
